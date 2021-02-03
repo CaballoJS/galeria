@@ -1,5 +1,29 @@
 body {
   font-family: sans-serif;
 }
+body header h1 {
+  color: forestgreen;
+  text-align: center;
+  margin: 30px 0 50px;
+}
+body main .galeria {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+body main .galeria img {
+  opacity: 0.8;
+  padding: 1em;
+  width: 400px;
+}
+body main .galeria img:hover {
+  opacity: 1;
+  transition: all 3s ease;
+  -webkit-transition: all 3s ease;
+  -moz-transition: all 3s ease;
+  -ms-transition: all 3s ease;
+  -o-transition: all 3s ease;
+}
 
 /*# sourceMappingURL=style.css.map */
